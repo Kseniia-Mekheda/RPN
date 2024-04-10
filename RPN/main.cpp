@@ -130,6 +130,7 @@ public:
 int main()
 {
     string exp;
+    cout << "Enter your expression: ";
     getline(cin, exp, '\n');
     ExpressionForNotation expr(exp);
     cout << "Postfix form: " << expr.converter() << endl;
